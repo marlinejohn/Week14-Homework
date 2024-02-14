@@ -20,7 +20,7 @@ database.once('connected', () => {
 })
 
 app.listen(3000, () => {
-    console.log(`Server Started at ${ 3000}`)
+    console.log(`Server Started at ${3000}`)
     })
 // import mongoose from "mongoose";
 // mongoose.connect("mongodb://localhost:27017/databaseName");
